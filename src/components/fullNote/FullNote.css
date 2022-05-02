@@ -1,0 +1,28 @@
+.fullNote {
+  padding: .5rem 1rem;
+  border: 1px solid black;
+  margin: 15px 0;
+  border-radius: 5px;
+  height: 780px;
+}
+
+.fullNoteInput {
+  display: block;
+  border: none;
+  background-color: rgba(218, 232, 255);
+  outline: 0;
+}
+
+.fullNoteName {
+  font-size: x-large;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.fullNoteContent {
+  position: fixed;
+  margin-top: 15px;
+  width: 698px;
+  height: 710px;
+  resize: none;
+}

@@ -1,0 +1,8 @@
+.mainPage {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  min-height: 92vh;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color: rgb(218, 232, 255);
+}

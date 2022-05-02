@@ -1,0 +1,28 @@
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1rem;
+  border: 1px solid black;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+.rm{
+  position:relative;
+  border: 1px dotted rgba(218, 232, 255);
+  width: 3px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  transform: scale(7) rotate(45deg);
+
+}
+
+.rm:hover {
+  transform: scale(6.2) rotate(45deg);
+}
+
+span {
+  width: 100%;
+}

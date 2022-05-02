@@ -1,0 +1,47 @@
+.headerClass{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem;
+  padding-bottom: 5px;
+}
+
+.plus {
+  /* position:relative; */
+  border: 1px dotted rgba(218, 232, 255);
+  width: 3px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  transform: scale(12);
+}
+
+.plus:hover {
+  transform: scale(11);
+}
+
+.back{
+  border-top:
+    18px solid transparent;
+  border-bottom:
+    18px solid transparent; 
+  border-right:
+    30px solid white;
+}
+
+.back:hover {
+  transform: scale(0.9);
+}
+
+.backPasive{
+  border-top:
+    18px solid transparent;
+  border-bottom:
+    18px solid transparent; 
+  border-right:
+    30px rgba(218, 232, 255);
+}
+
+.button {
+  cursor: pointer;
+}
